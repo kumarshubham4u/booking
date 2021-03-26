@@ -9,6 +9,7 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import resources.BaseTest;
 import resources.ExtentReporterNG;
@@ -21,6 +22,7 @@ public class Listeners extends BaseTest implements ITestListener {
 
 	public void onFinish(ITestContext arg0) {
 		// TODO Auto-generated method stub
+		extent.flush();
 		
 	}
 
@@ -66,9 +68,9 @@ public class Listeners extends BaseTest implements ITestListener {
 		
 	}
 
-	public void onTestSuccess(ITestResult arg0) {
+	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		parallel.get().log(Status.PASS, "Test Passed");
 	}
 
 }
