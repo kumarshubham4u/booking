@@ -1,0 +1,3 @@
+pageObjects\LandingPage.class
+resources\BaseTest.class
+resources\ExtentReporterNG.class

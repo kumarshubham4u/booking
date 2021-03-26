@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26011" started-at="2021-03-26T06:03:37Z" finished-at="2021-03-26T06:04:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26011" started-at="2021-03-26T06:03:37Z" finished-at="2021-03-26T06:04:03Z">
+      <class name="testCases.Testscript_Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.Testscript_Login@53b32d7]" name="initialize" is-config="true" duration-ms="24912" started-at="2021-03-26T06:03:37Z" finished-at="2021-03-26T06:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testCases.Testscript_Login@53b32d7]" name="Login" duration-ms="1053" started-at="2021-03-26T06:04:02Z" finished-at="2021-03-26T06:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- testCases.Testscript_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
